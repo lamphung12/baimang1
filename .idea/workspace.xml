@@ -5,23 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad5db5a0-be82-4485-91b2-76b2ce23c154" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cocaro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang1/bai 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang1/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang1/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang1/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang1/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang1/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang1/bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang1/bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang1/bai9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang1/baitap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noiphantu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tictoctoe.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sudunghamcosan" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sudunghamcosan.html" afterDir="false" />
     </list>
@@ -38,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,6 +41,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,7 +57,7 @@
       <workItem from="1647388469929" duration="734000" />
       <workItem from="1647392140424" duration="7165000" />
       <workItem from="1647404906143" duration="11000" />
-      <workItem from="1647404936243" duration="11135000" />
+      <workItem from="1647404936243" duration="11465000" />
     </task>
     <servers />
   </component>
