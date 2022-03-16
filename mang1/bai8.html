@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let arr=[1,2,3,4,5,9,12,23,33,43];
+    let tg=0;
+    for(let i=0;i<arr.length-1;i++){
+        for(let j=i+1;j<arr.length;j++){
+            if(arr[i]<arr[j]){
+                tg=arr[i];
+                arr[i]=arr[j];
+                arr[j]=tg;
+            }
+        }
+    }
+    document.write(arr);
+</script>
+</html>
+<!--Bài 8- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử.-->
+<!--Chương trình sắp xếp mảng theo thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp.-->

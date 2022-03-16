@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let b=0;
+    let arr=[1,4,-4,13,-9,10,7,9,16,30];
+    let V=+prompt("Nhap V");
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]==V){
+            document.write("V is in the array");
+            break;
+        }else{b++}
+
+    }if(b==arr.length){
+        document.write("v is not the array");
+    }
+
+
+
+</script>
+</body>
+</html>
+<!--Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V.-->
+<!--Chương trình tìm xem V có nằm trong mảng số nguyên không?-->
+<!--Nếu V thuộc mảng số nguyên thì in ra "V is in the array" còn lại in ra "V is not in the array".-->

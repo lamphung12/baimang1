@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = window.prompt();
+    let stt = num.toString();
+    let arr = [stt[0]];
+
+    for (let i = 1; i < stt.length; i++) {
+        if (stt[i - 1] % 2 === 0 && stt[i] % 2 === 0) {
+            arr.push('-', stt[i]);
+        } else {
+            arr.push(stt[i]);
+        }
+    }
+    document.write(arr.join(''));
+</script>
+</body>
+</html>

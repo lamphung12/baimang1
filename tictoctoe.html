@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{margin: auto;width: 960px;background: antiquewhite;
+        height: auto;text-align: center;}
+        button{width: 60px; height: 60px;}
+    </style>
+</head>
+<body>
+<h1>TIC TOC TOE</h1>
+<button onclick="ham(this)"></button>
+<button onclick="ham(this)"></button>
+<button onclick="ham(this)"></button><br>
+<button onclick="ham(this)"></button>
+<button onclick="ham(this)"></button>
+<button onclick="ham(this)"></button><br>
+<button onclick="ham(this)"></button>
+<button onclick="ham(this)"></button>
+<button onclick="ham(this)"></button>
+<script>
+    let flag=1;
+    let count=0;
+    function ham(x){
+        if (flag==1){
+            x.style.backgroundColor= "red";
+            x.style.color="yellow";
+            x.innerText="X";
+        }else{
+            x.style.backgroundColor ="green";
+            x.style.color="white";
+            x.innerText="O";
+        }
+        flag=!flag;
+        count++;
+        if(count==9){
+            alert("Game over")
+        }
+        else if(count<4){
+            x.style.color="yellow";
+            x.innerText="X";
+        }
+
+    }
+
+
+
+</script>
+</body>
+</html>
